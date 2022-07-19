@@ -3,6 +3,6 @@ let fitnessController=require("../components/fitness");
 
 let fitnessrouter=express.Router();
 
-fitnessRouter.route("/fitness")
+fitnessrouter.route("/fitness")
 .get(fitnessController.apicontroller)
 module.exports=fitnessrouter;
